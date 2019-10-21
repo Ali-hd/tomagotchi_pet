@@ -15,14 +15,46 @@ class tomagotchi{
         this.boredom -= 1
     }
 
-    name(name){
-        this.name = name
+    age(){
+        this.age += 1
     }
 
+    // setname(newName){
+    //     this.name = newName
+    // }
 
+    hunger(){
+        this.hunger += 1
+    }
+
+    boredom(){
+        this.boredom +=1
+    }
 
 }
 
-let Nubo = new tomagotchi ("pet",5,5,5,1)
+let nubo = new tomagotchi ("pet",5,5,5,1)
 
-feed()
+// setname("nubo");
+
+
+$("#play").click(function(){
+
+})
+
+$("#feed").click(function(){
+    
+})
+
+$("#off").click(function(){
+    
+})
+nubo.feed()
+
+console.log(nubo)
+
+nubo.play()
+
+// nubo.hunger()
+
+console.log(nubo)
